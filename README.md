@@ -43,3 +43,9 @@ axes2.plot(x, np.cos(x), color='b')
 axes2.set_ylabel('cosx', c='b')
 
 axes2.tick_params(axis='y', labelcolor='b')
+
+plt.tight_layout()
+
+plt.show()
+
+
